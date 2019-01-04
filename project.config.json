@@ -15,6 +15,7 @@
 	"libVersion": "2.4.3",
 	"appid": "wxb10f4051ed214ccf",
 	"projectname": "maduoduo",
+	"test":"123",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
