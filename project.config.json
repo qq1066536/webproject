@@ -13,11 +13,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.4.3",
-<<<<<<< HEAD
 	"appid": "wx5e9acad0a0787815",
-=======
-	"appid": "wxd10712d27f1396d3",
->>>>>>> 9a9d44e32232ff381198c428c5dd1c7da6b5c235
 	"projectname": "maduoduo",
 	"debugOptions": {
 		"hidedInDevtools": []
