@@ -1,4 +1,4 @@
-// pages/family/index.js
+// pages/kfc/kfc.js
 let app =  getApp();
 
   
@@ -8,7 +8,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+
   },
 
   /**

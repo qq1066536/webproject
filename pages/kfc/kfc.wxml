@@ -1,0 +1,3 @@
+<!--pages/kfc/kfc.wxml-->
+<text>pages/kfc/kfc.wxml</text>
+<family data="{{data}}" index="1"></family>

@@ -1,6 +1,7 @@
 //app.js
 App({
   onLaunch: function () {
+
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -34,6 +35,43 @@ App({
     })
   },
   globalData: {
-    userInfo: null
+    userInfo: null,
+    data: [{
+      name: "全家",
+      logo: {
+        url: "../../assets/images/familymart.jpg"
+      },
+      index: 0
+    }, {
+      name: "肯德基",
+      logo: {
+        url: "../../assets/images/kfc.jpg"
+      },
+      index: 1
+    }, {
+      name: "麦当劳",
+      logo: {
+        url: "../../assets/images/M.jpg"
+      },
+      index: 2
+    }, {
+      name: "山林",
+      logo: {
+        url: "../../assets/images/shanlin.jpg"
+      },
+      index: 3
+    }, {
+      name: "必胜客",
+      logo: {
+        url: "../../assets/images/bsk.jpg"
+      },
+      index: 4
+    }, {
+      name: "喜士多",
+      logo: {
+        url: "../../assets/images/xsd.jpg"
+      },
+      index: 5
+    }]
   }
 })

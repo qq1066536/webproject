@@ -1,1 +1,17 @@
 /* component/com-header/com-header.wxss */
+.logo{
+  width:100rpx;
+  height:100rpx;
+  border-radius:50%;
+  display: inline-block;
+  /* margin:20rpx */
+}
+.active{
+    transform: scale(1.2);
+    box-shadow: 5rpx 5rpx 5rpx 5rpx #e5e5e5;
+}
+.header{
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
