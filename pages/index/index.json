@@ -1,6 +1,5 @@
 {
   "usingComponents": {
-    "com-header":"../../component/com-header/com-header"
+    "family":"../../component/family/family"
   }
-  
 }

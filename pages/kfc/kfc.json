@@ -1,6 +1,11 @@
 {
   "usingComponents": {
+<<<<<<< HEAD
     "kfc-card" : "../../component/kfc-card/kfc-card"
   },
   "navigationBarTitleText": "肯德基礼品卡"
+=======
+    "family": "../../component/family/family"
+  }
+>>>>>>> dev-lg
 }

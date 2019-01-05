@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* pages/kfc/kfc.wxss */
 
 .banner {
@@ -43,3 +44,6 @@
   .icon-xiangyun:before {
     content: "\e61c";
   }
+=======
+/* pages/kfc/kfc.wxss */
+>>>>>>> dev-lg

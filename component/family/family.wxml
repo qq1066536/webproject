@@ -1,0 +1,4 @@
+<view>
+    <common_header data="{{data}}" current="{{index}}"></common_header>
+    
+</view>

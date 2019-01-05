@@ -1,17 +1,33 @@
 // pages/kfc/kfc.js
+<<<<<<< HEAD
+=======
+let app =  getApp();
+
+  
+>>>>>>> dev-lg
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+<<<<<<< HEAD
+=======
+
+>>>>>>> dev-lg
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+<<<<<<< HEAD
 
+=======
+    this.setData({
+      data:app.globalData.data
+    })
+>>>>>>> dev-lg
   },
 
   /**
