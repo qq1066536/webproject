@@ -1,0 +1,50 @@
+/* pages/pizza/pizza.wxss */
+.banner {
+    width: 690rpx;
+    height: 414rpx;
+    padding: 32rpx;
+}
+.card-title {
+    padding: 0 32rpx;
+}
+.card-title image{
+    width: 60rpx;
+    height: 30rpx;
+}
+.card {
+    color: #e3514c;
+    font-size: 15pt;
+}
+.card-text {
+    font-size: 11pt;
+    color: #5b564c;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    padding:32rpx;
+    text-align: center;
+}
+.content image{
+    width: 314rpx;
+    height: 130rpx;
+}
+.content>view:first-child{
+    margin-right: 10rpx;
+}
+.price-now{
+    color: red;
+    font-size: 12pt;
+}
+.card2{
+    font-size: 12pt;
+}
+.price-before{
+    font-size: 12pt;
+    color: gray;
+    text-decoration-line: line-through;
+}
+.world{
+    font-size: 12pt;
+    color: gray;
+}

@@ -1,6 +1,10 @@
 {
   "pages": [
+<<<<<<< HEAD
     "pages/kfc/kfc",
+=======
+    "pages/pizza/pizza",
+>>>>>>> 必胜客
     "pages/index/index",
     "pages/logs/logs"
   ],
