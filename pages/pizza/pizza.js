@@ -16,6 +16,7 @@ Page({
     this.setData({
       data:app.globalData.data
     })
+
   },
 
   /**
