@@ -1,6 +1,6 @@
 <!-- pages/kfc/kfc.wxml -->
 <family data="{{data}}" index="1"></family>
-<image src="../../images/banner.jpg" class="banner" />
+<!-- <image src="../../images/banner.jpg" class="banner" />
 <view class="card-title">
     <text class="iconfont icon-xiangyun card"></text>
     <text class="card-text">肯德基礼品卡</text>
@@ -11,4 +11,4 @@
     <kfc-card src="../../images/kdj3.jpg"></kfc-card>
 </view>
 <!--pages/kfc/kfc.wxml-->
-<text>pages/kfc/kfc.wxml</text>
+<!-- <text>pages/kfc/kfc.wxml</text> --> 

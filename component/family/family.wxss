@@ -1,1 +1,16 @@
 /* component/family/family.wxss */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-title {
+    padding: 0 32rpx;
+}
+.card {
+    color: #e3514c;
+    font-size: 15pt;
+}
+.card-text {
+    font-size: 11pt;
+    color: #5b564c;
+}
