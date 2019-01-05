@@ -51,6 +51,7 @@ App({
       logo: {
         url: "../../assets/images/kfc.jpg"
       },
+      page:"/pages/kfc/kfc",
       index: 1
     }, {
       name: "麦当劳",
