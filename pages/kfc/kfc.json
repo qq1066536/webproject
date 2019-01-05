@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "kfc-card" : "../../component/kfc-card/kfc-card"
+  },
+  "navigationBarTitleText": "肯德基礼品卡"
+}

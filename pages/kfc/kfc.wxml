@@ -1,0 +1,11 @@
+<!-- pages/kfc/kfc.wxml -->
+<image src="../../images/banner.jpg" class="banner" />
+<view class="card-title">
+    <text class="iconfont icon-xiangyun card"></text>
+    <text class="card-text">肯德基礼品卡</text>
+</view>
+<view class="content">
+    <kfc-card src="../../images/kdj1.jpg"></kfc-card>
+    <kfc-card src="../../images/kdj2.jpg"></kfc-card>
+    <kfc-card src="../../images/kdj3.jpg"></kfc-card>
+</view>
