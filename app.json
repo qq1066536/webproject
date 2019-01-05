@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/comedy/comedy",
     "pages/kfc/kfc",
     "pages/index/index",
     "pages/logs/logs"

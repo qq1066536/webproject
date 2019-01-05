@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "comedy-card":"../../component/comedy-card/comedy-card"
+  },
+  "navigationBarTitleText": "喜士多礼品卡"
+}

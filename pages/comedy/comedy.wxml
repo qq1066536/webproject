@@ -1,0 +1,11 @@
+<!--pages/comedy/comedy.wxml-->
+<image src="../../images/big_03.jpg" class="banner" />
+<view class="card-title">
+    <text class="iconfont icon-xiangyun card"></text>
+    <text class="card-text">喜士多礼品卡</text>
+</view>
+<view class="content">
+    <comedy-card src="../../images/money1.jpg"></comedy-card>
+    <comedy-card src="../../images/money2.jpg"></comedy-card>
+    <comedy-card src="../../images/money5.jpg"></comedy-card>
+</view>

@@ -1,0 +1,13 @@
+<!--component/comedy-card/comedy-card.wxml-->
+<view class="container">
+    <image src="{{src}}" class="container-pic" />
+    <view class="con-intro">
+        <text class="con-tit">领取现金券</text>
+        <view class="con-price">
+            <text class="con-nowpic">¥49</text>
+            <text class="con-bepic">¥50</text>
+        </view>
+    </view>
+    <text class="con-by">不限品类，可任意兑换商品</text>
+</view>
+
