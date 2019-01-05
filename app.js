@@ -70,6 +70,7 @@ App({
       logo: {
         url: "../../assets/images/bsk.jpg"
       },
+      page:"/pages/pizza/pizza",
       index: 4
     }, {
       name: "喜士多",

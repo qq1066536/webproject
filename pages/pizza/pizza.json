@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "com-header":"../../component/com-header/com-header"
+  },
   "navigationBarTitleText": "必胜客"
 }

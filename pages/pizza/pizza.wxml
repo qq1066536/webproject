@@ -1,4 +1,5 @@
 <!--pages/pizza/pizza.wxml-->
+<com-header data='{{data}}' current="4"></com-header>
 <image src="../../images/1_03.png" class="banner" />
 <view class="card-title">
     <image src="../../images/bishengka_07.png" class="card"></image>
