@@ -2,6 +2,6 @@
   "component": true,
   "usingComponents": {
     "common_header": "../com-header/com-header",
-    "card":"../kfc-card/kfc-card"
+    "card":"../card/card"
   }
 }

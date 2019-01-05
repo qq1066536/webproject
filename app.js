@@ -34,6 +34,8 @@ App({
       }
     })
   },
+ 
+
   globalData: {
     userInfo: null,
     data: [{
@@ -41,7 +43,9 @@ App({
       logo: {
         url: "../../assets/images/familymart.jpg"
       },
-      index: 0
+      prices: [5, 10, 20, 30, 50],
+      index: 0,
+      page:"/pages/index/index"
     }, {
       name: "肯德基",
       logo: {

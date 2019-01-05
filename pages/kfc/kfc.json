@@ -2,6 +2,6 @@
   "navigationBarTitleText": "肯德基礼品卡",
   "usingComponents": {
     "kfc-card": "../../component/kfc-card/kfc-card",
-    "family": "../../component/family/family"
+    "com-header": "../../component/com-header/com-header"
   }
 }

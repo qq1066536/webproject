@@ -1,5 +1,6 @@
 {
   "usingComponents": {
     "family":"../../component/family/family"
-  }
+  },
+  "navigationBarTitleText": "全家折扣卡"
 }

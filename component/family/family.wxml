@@ -1,16 +1,16 @@
 <view>
-  {{index}}
   <common_header data="{{data}}" current="{{index}}"></common_header>
-  <image src="../../images/banner.jpg" class="banner" />
+  <image src="../../assets/images/banner.png" class="banner" />
   <view class="card-title">
     <text class="iconfont icon-xiangyun card"></text>
-    <text class="card-text">{{data[index].name}}礼品卡</text>
+    <text class="card-text">{{data[index].name}}心意卡</text>
   </view>
 
   <view class="container">
+    <card wx:for="{{data[index].prices}}" price="{{item}}" src="../../assets/images/back.jpg"></card>
+    <!-- <card src="../../images/kdj1.jpg"></card>
     <card src="../../images/kdj1.jpg"></card>
-    <card src="../../images/kdj1.jpg"></card>
-    <card src="../../images/kdj1.jpg"></card>
+    <card src="../../images/kdj1.jpg"></card> -->
   </view>
 
 </view>

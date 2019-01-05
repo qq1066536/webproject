@@ -1,6 +1,6 @@
 <!--component/com-header/com-header.wxml-->
 <scroll-view class='header'>
-  <view wx:for="{{data}}" wx:key='{{index}}' style="display:inline-block;padding:20rpx">
+  <view wx:for="{{data}}" wx:key='{{index}}' style="display:inline-block;padding:20rpx" data-index='{{index}}' bindtap='nav'>
     <image src='{{item.logo.url}}' class='logo {{index==current?"active":""}}'></image>
     <view style="font-size:11pt;text-align:center;color:#d5d5d5">{{item.name}}</view>
   </view>                       

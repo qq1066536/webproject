@@ -5,7 +5,7 @@ Component({
    */
   properties: {
     data:Object,
-    current:Number
+    current:Number,
   },
 
   /**
@@ -19,6 +19,10 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    nav(e){
+      wx.redirectTo({
+        url:this.properties.data[e.currentTarget.dataset.index].page
+      })
+    }
   }
 })

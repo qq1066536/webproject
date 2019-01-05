@@ -1,0 +1,18 @@
+<!--component/kfc-card/kfc-card.wxml-->
+<view class="container">
+    <view class="container-pic" style="background-image:url('{{src}}')">
+    <text class="pic-before">￥</text>
+    <text class="price">{{price}}</text>
+    <text class="pic-after">现金券</text>
+    </view>
+    <!-- <image src="{{src}}" class="container-pic" /> -->
+    <view class="con-intro">
+        <text class="con-tit">{{price}}元现金券</text>
+        <view class="con-price">
+            <text class="con-nowpic">￥{{price}}</text>
+            <text class="con-bepic">￥{{price}}</text>
+        </view>
+        
+    </view>
+    <text class="con-by">不限品种，可兑换任意商品</text>
+</view>

@@ -1,4 +1,9 @@
 /* component/family/family.wxss */
+.banner {
+    width: 692rpx;
+    height: 416rpx;
+    padding: 32rpx;
+}
 .container {
     display: flex;
     flex-wrap: wrap;

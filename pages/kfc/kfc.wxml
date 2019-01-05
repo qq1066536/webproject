@@ -1,14 +1,15 @@
 <!-- pages/kfc/kfc.wxml -->
-<family data="{{data}}" index="1"></family>
-<!-- <image src="../../images/banner.jpg" class="banner" />
+<!-- <family data="{{data}}" index="1"></family> -->
+<com-header data="{{data}}" current="1"></com-header>
+<image src="../../images/banner.jpg" class="banner" />
 <view class="card-title">
-    <text class="iconfont icon-xiangyun card"></text>
-    <text class="card-text">肯德基礼品卡</text>
+  <text class="iconfont icon-xiangyun card"></text>
+  <text class="card-text">肯德基礼品卡</text>
 </view>
 <view class="content">
-    <kfc-card src="../../images/kdj1.jpg"></kfc-card>
-    <kfc-card src="../../images/kdj2.jpg"></kfc-card>
-    <kfc-card src="../../images/kdj3.jpg"></kfc-card>
+  <kfc-card src="../../images/kdj1.jpg"></kfc-card>
+  <kfc-card src="../../images/kdj2.jpg"></kfc-card>
+  <kfc-card src="../../images/kdj3.jpg"></kfc-card>
 </view>
 <!--pages/kfc/kfc.wxml-->
-<!-- <text>pages/kfc/kfc.wxml</text> --> 
+<!-- <text>pages/kfc/kfc.wxml</text>
