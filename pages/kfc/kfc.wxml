@@ -1,5 +1,5 @@
-<<<<<<< HEAD
 <!-- pages/kfc/kfc.wxml -->
+<family data="{{data}}" index="1"></family>
 <image src="../../images/banner.jpg" class="banner" />
 <view class="card-title">
     <text class="iconfont icon-xiangyun card"></text>
@@ -10,8 +10,6 @@
     <kfc-card src="../../images/kdj2.jpg"></kfc-card>
     <kfc-card src="../../images/kdj3.jpg"></kfc-card>
 </view>
-=======
 <!--pages/kfc/kfc.wxml-->
 <text>pages/kfc/kfc.wxml</text>
-<family data="{{data}}" index="1"></family>
->>>>>>> dev-lg
+
