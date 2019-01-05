@@ -1,0 +1,12 @@
+<!--component/kfc-card/kfc-card.wxml-->
+<view class="container">
+    <image src="{{src}}" class="container-pic" />
+    <view class="con-intro">
+        <text class="con-tit">50元礼品卡</text>
+        <view class="con-price">
+            <text class="con-nowpic">¥47.5</text>
+            <text class="con-bepic">¥50</text>
+        </view>
+    </view>
+    <text class="con-by">今晚一起看球</text>
+</view>
