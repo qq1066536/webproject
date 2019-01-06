@@ -1,6 +1,7 @@
 <!-- pages/kfc/kfc.wxml -->
 <!-- <family data="{{data}}" index="1"></family> -->
-<com-header data="{{data}}" current="1"></com-header>
+<page data='{{data}}' index="1"></page>
+<!-- <com-header data="{{data}}" current="1"></com-header>
 <image src="../../images/banner.jpg" class="banner" />
 <view class="card-title">
   <text class="iconfont icon-xiangyun card"></text>
@@ -10,6 +11,6 @@
   <kfc-card src="../../images/kdj1.jpg"></kfc-card>
   <kfc-card src="../../images/kdj2.jpg"></kfc-card>
   <kfc-card src="../../images/kdj3.jpg"></kfc-card>
-</view>
+</view> -->
 <!--pages/kfc/kfc.wxml-->
 <!-- <text>pages/kfc/kfc.wxml</text>

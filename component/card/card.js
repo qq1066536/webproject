@@ -4,8 +4,8 @@ Component({
    * 组件的属性列表
    */
   properties: {
-    src: String,
-    price:Number
+    price:Number,
+    src:String
   },
 
   /**

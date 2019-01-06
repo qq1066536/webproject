@@ -52,6 +52,22 @@ App({
         url: "../../assets/images/kfc.jpg"
       },
       page: "/pages/kfc/kfc",
+      banner:"/images/banner.jpg",
+      list:[
+        {
+          price:50,
+          src:"/images/kdj1.jpg",
+          desc:"今晚一起看球"
+        },{
+          price:100,
+          src:"/images/kdj2.jpg",
+          desc:"送你一家人浓浓的心意"
+        },{
+          price:200,
+          src:"/images/kdj3.jpg",
+          desc:"一份心意，送去生日的祝福"
+        }
+      ],
       index: 1
     }, {
       name: "麦当劳",
@@ -84,8 +100,6 @@ App({
         src:"/images/1.3_14.png",
         desc:"走，请你吃pizza"
       }],
-      prices: [50, 100, 200],
-      srcs: ["../../images/1.2_09.png","../../images/1.3_14.png"],
       page: "/pages/pizza/pizza",
       index: 4
     }, {

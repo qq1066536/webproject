@@ -20,6 +20,7 @@ Component({
    */
   methods: {
     nav(e){
+      console.log(e.currentTarget.dataset)
       wx.redirectTo({
         url:this.properties.data[e.currentTarget.dataset.index].page
       })
