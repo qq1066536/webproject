@@ -1,0 +1,3 @@
+<!--pages/xsd/index.wxml-->
+<!-- <text>pages/xsd/index.wxml</text> -->
+<page data="{{data}}" index="5"></page>

@@ -3,7 +3,9 @@
     "pages/kfc/kfc",
     "pages/pizza/pizza",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/xsd/index",
+    "pages/dq/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

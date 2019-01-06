@@ -38,15 +38,18 @@ App({
 
   globalData: {
     userInfo: null,
-    data: [{
+    data: [
+      {
       name: "全家",
       logo: {
         url: "../../assets/images/familymart.jpg"
       },
+      banner:"/assets/images/banner.png",
       prices: [5, 10, 20, 30, 50],
       index: 0,
       page: "/pages/index/index"
-    }, {
+    }, 
+    {
       name: "肯德基",
       logo: {
         url: "../../assets/images/kfc.jpg"
@@ -69,7 +72,8 @@ App({
         }
       ],
       index: 1
-    }, {
+    },
+     {
       name: "麦当劳",
       logo: {
         url: "../../assets/images/M.jpg"
@@ -80,7 +84,10 @@ App({
       logo: {
         url: "../../assets/images/shanlin.jpg"
       },
-      index: 3
+      banner:"/assets/images/xsd_banner.png",
+      prices:[5,10,20,50],
+      index: 3,
+      page:"/pages/xsd/index"
     }, {
       name: "必胜客",
       logo: {
@@ -105,9 +112,43 @@ App({
     }, {
       name: "喜士多",
       logo: {
-        url: "../../assets/images/xsd.jpg"
+        url: "/assets/images/xsd.jpg"
       },
-      index: 5
+      index: 5,
+      banner:"/assets/images/xsd_banner.png",
+      prices:[5,10,20,50],
+      page:"/pages/xsd/index"
+    },{
+      name:"DQ冰雪皇后",
+      logo:{
+        url:"/assets/images/bingxue.jpg"
+      },
+      banner:"/assets/images/dq_banner.png",
+      index:6,
+      list:[
+        {
+          price:20,
+          src:"/assets/images/dq1.png",
+          desc:"可直接抵扣等值产品,多次使用"
+        },{
+          price:30,
+          src:"/assets/images/dq1.png",
+          desc:"可直接抵扣等值商品,多次使用"
+        },{
+          price:50,
+          src:"/assets/images/dq1.png",
+          desc:"可直接抵扣等值产品,多次使用"
+        },{
+          price:100,
+          src:"/assets/images/dq2.png",
+          desc:"可直接抵扣等值商品,多次使用"
+        },{
+          price:200,
+          src:"/assets/images/dq3.png",
+          desc:"可直接抵扣等值商品,多次使用"
+        }
+      ],
+      page:"/pages/dq/index"
     }]
   }
 })

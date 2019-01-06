@@ -1,5 +1,6 @@
 
 <view>
+{{index}}
 <com-header data="{{data}}" current="{{index}}"></com-header>
 <image src="{{data[index].banner}}" class="banner" />
 <view class="card-title">

@@ -1,0 +1,2 @@
+<!--pages/dq/index.wxml-->
+<page data="{{data}}" index="6"></page>

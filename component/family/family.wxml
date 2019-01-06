@@ -1,6 +1,6 @@
 <view>
   <common_header data="{{data}}" current="{{index}}"></common_header>
-  <image src="../../assets/images/banner.png" class="banner" />
+  <image src="{{data[index].banner}}" class="banner" />
   <view class="card-title">
     <text class="iconfont icon-xiangyun card"></text>
     <text class="card-text">{{data[index].name}}心意卡</text>
