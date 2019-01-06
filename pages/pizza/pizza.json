@@ -1,7 +1,7 @@
 {
   "usingComponents": {
-    "com-header":"../../component/com-header/com-header"
+    "com-header":"../../component/com-header/com-header",
+    "common-page":"../../component/common-page/index"
   },
-  "usingComponents": {},
   "navigationBarTitleText": "必胜客"
 }

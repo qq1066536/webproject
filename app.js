@@ -1,6 +1,6 @@
 //app.js
 App({
-  onLaunch: function () {
+  onLaunch: function() {
 
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
@@ -34,7 +34,7 @@ App({
       }
     })
   },
- 
+
 
   globalData: {
     userInfo: null,
@@ -45,13 +45,13 @@ App({
       },
       prices: [5, 10, 20, 30, 50],
       index: 0,
-      page:"/pages/index/index"
+      page: "/pages/index/index"
     }, {
       name: "肯德基",
       logo: {
         url: "../../assets/images/kfc.jpg"
       },
-      page:"/pages/kfc/kfc",
+      page: "/pages/kfc/kfc",
       index: 1
     }, {
       name: "麦当劳",
@@ -70,7 +70,23 @@ App({
       logo: {
         url: "../../assets/images/bsk.jpg"
       },
-      page:"/pages/pizza/pizza",
+      banner:"/images/1_03.png",
+      list:[{
+        price:50,
+        src:"/images/1.1_07.png",
+        desc:"世界杯今晚约起"
+      },{
+        price:100,
+        src:"/images/1.2_09.png",
+        desc:"祝你节日快乐"
+      },{
+        price:200,
+        src:"/images/1.3_14.png",
+        desc:"走，请你吃pizza"
+      }],
+      prices: [50, 100, 200],
+      srcs: ["../../images/1.2_09.png","../../images/1.3_14.png"],
+      page: "/pages/pizza/pizza",
       index: 4
     }, {
       name: "喜士多",

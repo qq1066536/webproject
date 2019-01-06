@@ -1,0 +1,12 @@
+
+<view>
+<com-header data="{{data}}" current="{{index}}"></com-header>
+<image src="{{data[index].banner}}" class="banner" />
+<view class="card-title">
+  <text class="iconfont icon-xiangyun card"></text>
+  <text class="card-text">{{data[index].name}}礼品卡</text>
+</view>
+<view class="content">
+  <common-card wx:for="{{data[index].list}}" data="{{item}}"></common-card>
+</view>
+</view>

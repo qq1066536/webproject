@@ -1,0 +1,12 @@
+<!--component/common-card/index.wxml-->
+<view class="container">
+    <image src="{{data.src}}" class="container-pic" />
+    <view class="con-intro">
+        <text class="con-tit">{{data.price}}元礼品卡</text>
+        <view class="con-price">
+            <text class="con-nowpic">¥{{data.price}}</text>
+            <text class="con-bepic">¥{{data.price}}</text>
+        </view>
+    </view>
+    <text class="con-by">{{data.desc}}</text>
+</view>

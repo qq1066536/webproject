@@ -1,21 +1,46 @@
 <!--pages/pizza/pizza.wxml-->
-<com-header data='{{data}}' current="4"></com-header>
+<common-page data="{{data}}" index="4"></common-page>
+<!-- <com-header data='{{data}}' current="4"></com-header>
 <image src="../../images/1_03.png" class="banner" />
 <view class="card-title">
-    <image src="../../images/bishengka_07.png" class="card"></image>
-    <text class="card-text">必胜客必胜卡</text>
+  <image src="../../images/bishengka_07.png" class="card"></image>
+  <text class="card-text">必胜客必胜卡</text>
 </view>
 <view class="content">
-<view><view><image src="../../images/1.1_07.png"></image></view>
-<view><text class="card2">50元必胜卡</text><text class="price-now">￥47.5</text><text class="price-before">￥50</text><view><text class="world">世界杯今晚约起</text></view></view>
-<view></view>
-</view>
-<view><view><image src="../../images/1.2_09.png"></image></view>
-<view><text class="card2">100元必胜卡</text><text class="price-now">￥95</text><text class="price-before">￥100</text><view><text class="world">祝你节日快乐</text></view></view>
-<view></view>
-</view>
-<view><view><image src="../../images/1.3_14.png"></image></view>
-<view><text class="card2">200元必胜卡</text><text class="price-now">￥190</text><text class="price-before">￥50</text><view><text class="world">走，请你吃pizza</text></view></view>
-<view></view>
-</view>
-</view>
+  <view>
+    <image src="../../images/1.1_07.png"></image>
+  </view>
+  <view>
+    <text class="card2">50元必胜卡</text>
+    <text class="price-now">￥47.5</text>
+    <text class="price-before">￥50</text>
+    <view>
+      <text class="world">世界杯今晚约起</text>
+    </view>
+  </view>
+
+  <view>
+    <image src="../../images/1.2_09.png"></image>
+  </view>
+  <view>
+    <text class="card2">100元必胜卡</text>
+    <text class="price-now">￥95</text>
+    <text class="price-before">￥100</text>
+    <view>
+      <text class="world">祝你节日快乐</text>
+    </view>
+  </view>
+  <view>
+    <view>
+      <image src="../../images/1.3_14.png"></image>
+    </view>
+    <view>
+      <text class="card2">200元必胜卡</text>
+      <text class="price-now">￥190</text>
+      <text class="price-before">￥50</text>
+      <view>
+        <text class="world">走，请你吃pizza</text>
+      </view>
+    </view>
+  </view>
+</view> -->

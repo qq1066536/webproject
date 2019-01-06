@@ -1,0 +1,45 @@
+/* component/common-page/index.wxss */
+
+.banner {
+    width: 692rpx;
+    height: 416rpx;
+    padding: 32rpx;
+}
+.card-title {
+    padding: 0 32rpx;
+}
+.card {
+    color: #e3514c;
+    font-size: 10pt;
+}
+.card-text {
+    font-size: 8pt;
+    color: #5b564c;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* 以下是字体图标 */
+@font-face {
+    font-family: 'iconfont';  /* project id 1000385 */
+    src: url('//at.alicdn.com/t/font_1000385_1ttd477o9rf.eot');
+    src: url('//at.alicdn.com/t/font_1000385_1ttd477o9rf.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1000385_1ttd477o9rf.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1000385_1ttd477o9rf.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1000385_1ttd477o9rf.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1000385_1ttd477o9rf.svg#iconfont') format('svg');
+  }
+  
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-xiangyun:before {
+    content: "\e61c";
+  }

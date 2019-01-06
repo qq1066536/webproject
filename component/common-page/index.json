@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "common-card":"../common-card/index",
+    "com-header":"../com-header/com-header"
+  }
+}
