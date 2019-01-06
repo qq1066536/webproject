@@ -1,1 +1,69 @@
 /* pages/forest/forest.wxss */
+
+.forestBg {
+    padding: 30rpx;
+}
+
+.forestBgImage {
+    width: 690rpx;
+    height: 410rpx;
+}
+
+.forestTitle {
+    padding: 20rpx 30rpx;
+}
+
+.forestTitleImage {
+    width: 60rpx;
+    height: 35rpx;
+    margin-right: 10rpx;
+}
+.forestCouponContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 40rpx;
+}
+.forestCouponBox {
+    width: 316rpx;
+    box-shadow: 0rpx  10rpx 5rpx rgb(208, 208, 211);
+    margin-bottom: 30rpx;
+}
+
+.forestCouponPrice {
+    display: flex;
+    align-items: baseline;
+    padding: 10rpx 20rpx;
+}
+
+.forestCouponImage {
+    width: 316rpx;
+    height: 190rpx;
+}
+
+.forestCoupon {
+    font-size: 22rpx;
+    flex: 1;
+}
+
+.forestCouponPriceNow {
+    font-size: 22rpx;
+    color: rgb(218, 68, 70);
+}
+
+.forestCouponPriceBefore {
+    margin-left: 10rpx;
+    font-size: 20rpx;
+    text-decoration: line-through;
+    color: rgb(120, 120, 122);
+}
+
+.forestCouponTextBox {
+    text-align: center;
+    padding-bottom: 20rpx;
+}
+
+.forestCouponText {
+    font-size: 20rpx;
+    color: rgb(120, 120, 122);
+}

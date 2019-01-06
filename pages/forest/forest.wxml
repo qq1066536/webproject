@@ -1,2 +1,46 @@
-<!--pages/forest/forest.wxml-->
-<text>pages/forest/forest.wxml</text>
+<!-- pages/forest/forest.wxml -->
+<view>
+    <com-header></com-header>
+    <view class="forestBg">
+        <image src="../../images/forestBg.png" class="forestBgImage" />
+    </view>
+    <view class="forestTitle">
+        <image src="../../images/forestCloudLogo.png" class="forestTitleImage" />
+        <text>山林心意卡</text>
+    </view>
+    <view class="forestCouponContainer">
+        <view class="forestCouponBox">
+            <image src="../../images/forestCoupon10.png" class="forestCouponImage" />
+            <view class="forestCouponPrice">
+                <text class="forestCoupon">10元现金券</text>
+                <text class="forestCouponPriceNow">￥8.5</text>
+                <text class="forestCouponPriceBefore">￥10</text>
+            </view>
+            <view class="forestCouponTextBox">
+                <text class="forestCouponText">不限品类，可兑换任意商品</text>
+            </view>
+        </view>
+        <view class="forestCouponBox">
+            <image src="../../images/forestCoupon20.png" class="forestCouponImage" />
+            <view class="forestCouponPrice">
+                <text class="forestCoupon">20元现金券</text>
+                <text class="forestCouponPriceNow">￥17</text>
+                <text class="forestCouponPriceBefore">￥20</text>
+            </view>
+            <view class="forestCouponTextBox">
+                <text class="forestCouponText">不限品类，可兑换任意商品</text>
+            </view>
+        </view>
+        <view class="forestCouponBox">
+            <image src="../../images/forestCoupon50.png" class="forestCouponImage" />
+            <view class="forestCouponPrice">
+                <text class="forestCoupon">50元现金券</text>
+                <text class="forestCouponPriceNow">￥42.5</text>
+                <text class="forestCouponPriceBefore">￥50</text>
+            </view>
+            <view class="forestCouponTextBox">
+                <text class="forestCouponText">不限品类，可兑换任意商品</text>
+            </view>
+        </view>
+    </view>
+</view>
