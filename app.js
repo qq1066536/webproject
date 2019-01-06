@@ -74,20 +74,23 @@ App({
       index: 1
     },
      {
-      name: "麦当劳",
+      name: "天福",
       logo: {
-        url: "../../assets/images/M.jpg"
+        url: "../../assets/images/tf.jpg"
       },
-      index: 2
+      banner:"/assets/images/tf_banner.png",
+      index: 2,
+      prices:[10,20,50],
+      page:"/pages/tf/index"
     }, {
       name: "山林",
       logo: {
         url: "../../assets/images/shanlin.jpg"
       },
-      banner:"/assets/images/xsd_banner.png",
+      banner:"/assets/images/sl_banner.png",
       prices:[5,10,20,50],
       index: 3,
-      page:"/pages/xsd/index"
+      page:"/pages/sl/index"
     }, {
       name: "必胜客",
       logo: {

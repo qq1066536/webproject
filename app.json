@@ -5,7 +5,9 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/xsd/index",
-    "pages/dq/index"
+    "pages/dq/index",
+    "pages/sl/index",
+    "pages/tf/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
